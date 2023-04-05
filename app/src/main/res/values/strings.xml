@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Home Rental App</string>
+    <string name="sweet_home">Sweet Home</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
