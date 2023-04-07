@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#F69C25</color>
+    <color name="grayBorder">#E8ECF4</color>
+    <color name="editFieldColor">#F7F8F9</color>
 </resources>
