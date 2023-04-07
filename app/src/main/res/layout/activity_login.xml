@@ -117,15 +117,30 @@
             android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold" />
-        <TextView
-            android:layout_width="107dp"
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/my_button"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Register Now"
-            android:textSize="15sp"
+            android:text="Register"
             android:textColor="@color/orange"
-            android:textAlignment="textStart"
-            android:textStyle="bold" />
+            android:layout_marginRight="40dp"
+            app:backgroundTint="@color/white"
+            app:strokeColor="@color/white"
+            android:elevation="0dp"
+            app:strokeWidth="2dp" />
+<!--        <TextView-->
+<!--            android:layout_width="107dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Register Now"-->
+<!--            android:textSize="15sp"-->
+<!--            android:id="@+id/registerPageText"-->
+<!--            android:textColor="@color/orange"-->
+<!--            android:textAlignment="textStart"-->
+<!--            android:textStyle="bold" />-->
+
+
 
     </LinearLayout>
 

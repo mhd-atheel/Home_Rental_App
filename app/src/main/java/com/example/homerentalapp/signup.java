@@ -1,43 +1,24 @@
 package com.example.homerentalapp;
 
-import static com.example.homerentalapp.R.*;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
 
-public class login extends AppCompatActivity {
+public class signup extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().hide();
-        setContentView(layout.activity_login);
-        String myString = "Hello, World!";
-        final Button button = (Button) findViewById(id.loginButton);
-        //TextView myTextView = findViewById(id.registerPageText);
+        setContentView(R.layout.activity_signup);
+        getActionBar().hide();
 
-
-
-        button.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), navigation.class);
-                startActivity(i);
-
-            }
-        });
-
-        MaterialButton myButton = findViewById(R.id.my_button);
+        @SuppressLint({"MissingInflatedId", "LocalSuppress"}) MaterialButton myButton = (MaterialButton) findViewById(R.id.my_button);
         myButton.setElevation(0);
 
         myButton.setOnClickListener(new View.OnClickListener() {
@@ -47,14 +28,12 @@ public class login extends AppCompatActivity {
                 myButton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent i = new Intent(getApplicationContext(), signup.class);
+                        Intent i = new Intent(getApplicationContext(), login.class);
                         startActivity(i);
 
                     }
                 });
             }
         });
-
-
     }
 }
