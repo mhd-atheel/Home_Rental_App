@@ -12,6 +12,9 @@
         android:theme="@style/Theme.HomeRentalApp"
         tools:targetApi="31">
         <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
             android:name=".navigation"
             android:exported="false"
             android:label="@string/title_activity_navigation" />

@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
+    <EditText
+        android:id="@+id/my_text_field"
+        android:layout_width="309dp"
+        android:layout_height="42dp"
+        android:hint="Enter text here"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="90dp"
+        tools:ignore="MissingConstraints" />
+
     <TextView
         android:id="@+id/text_home"
         android:layout_width="match_parent"
