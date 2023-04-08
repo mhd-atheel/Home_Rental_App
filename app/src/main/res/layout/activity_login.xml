@@ -116,7 +116,7 @@
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="15sp"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/my_button"

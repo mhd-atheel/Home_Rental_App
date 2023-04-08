@@ -16,8 +16,7 @@ public class signup extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
-        getActionBar().hide();
-
+        getSupportActionBar().hide();
         @SuppressLint({"MissingInflatedId", "LocalSuppress"}) MaterialButton myButton = (MaterialButton) findViewById(R.id.my_button);
         myButton.setElevation(0);
 
