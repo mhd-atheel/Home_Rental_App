@@ -9,17 +9,21 @@
         android:id="@+id/navigation_home"
         android:name="com.example.homerentalapp.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home"
+        android:background="@color/orange"
+        />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.homerentalapp.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="Bookings"
+        android:background="@color/orange"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.homerentalapp.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="Profiles"
+        android:background="@color/orange"
         tools:layout="@layout/fragment_notifications" />
 </navigation>
